@@ -3,17 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6d500fdb-c66c-4165-91ec-4ef7802998a6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/springTut/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/springTut/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/springTut/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/springTut/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/springTut/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/Warning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/Annotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/AnnotationProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/AnnotationProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola13/annotation/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -162,7 +160,7 @@
       <workItem from="1580223960953" duration="665000" />
       <workItem from="1580245898958" duration="62000" />
       <workItem from="1580398648518" duration="1029000" />
-      <workItem from="1580725271871" duration="4624000" />
+      <workItem from="1580725271871" duration="6111000" />
     </task>
     <task id="LOCAL−00001" summary="added ignore">
       <created>1580761067892</created>
@@ -170,7 +168,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1580761067892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Added beans and autowire for tutorial">
+      <created>1580765334916</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1580765334916</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Added autowired beans">
+      <created>1580770027425</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1580770027425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,54 +188,56 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ignore" />
+    <MESSAGE value="Added beans and autowire for tutorial" />
+    <MESSAGE value="Added autowired beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added autowired beans" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1580764883909">
+    <state x="765" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1580770541585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580764883909" />
+    <state x="765" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770541585" />
     <state x="-1280" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580245657587">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
     <state x="-1280" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1580245657587" />
-    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1580761067282">
+    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1580770026783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580761067282" />
-    <state width="1876" height="261" key="GridCell.Tab.0.bottom" timestamp="1580765312348">
+    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770026783" />
+    <state width="1876" height="261" key="GridCell.Tab.0.bottom" timestamp="1580770770503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580765312348" />
-    <state width="1876" height="261" key="GridCell.Tab.0.center" timestamp="1580765312348">
+    <state width="1876" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770770503" />
+    <state width="1876" height="261" key="GridCell.Tab.0.center" timestamp="1580770770503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580765312348" />
-    <state width="1876" height="261" key="GridCell.Tab.0.left" timestamp="1580765312348">
+    <state width="1876" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770770503" />
+    <state width="1876" height="261" key="GridCell.Tab.0.left" timestamp="1580770770503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580765312348" />
-    <state width="1876" height="261" key="GridCell.Tab.0.right" timestamp="1580765312348">
+    <state width="1876" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770770503" />
+    <state width="1876" height="261" key="GridCell.Tab.0.right" timestamp="1580770770503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580765312348" />
+    <state width="1876" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770770503" />
     <state x="440" y="95" width="1084" height="791" key="SettingsEditor" timestamp="1580761887348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" width="1084" height="791" key="SettingsEditor/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580761887348" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1580761069551">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1580770031248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580761069551" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580770031248" />
     <state x="-1284" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1580725271863">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
     <state x="-1284" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1580725271863" />
     <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1579124050354" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580761809434">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580769901924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580761809434" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1580769901924" />
     <state x="640" y="120" key="spring file set editor" timestamp="1580762590192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
